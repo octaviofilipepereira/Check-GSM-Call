@@ -2,7 +2,7 @@
 
 Check GSM call, calidate Caller ID and deploy some action
 
-This script, written in Python, allows you to interact with a GSM modem, in order to:
+This script, written in Python, allows you to interact with a GSM modem with AT commands, in order to:
 1. Detect incoming voice calls;
 2. Hang up the incoming voice call;
 3. Check the caller_id of the origin of the voice call;
