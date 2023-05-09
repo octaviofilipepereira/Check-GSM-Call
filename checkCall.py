@@ -67,7 +67,7 @@ try:
                     if line.strip():
                         if new_string.find(line.strip()) != -1:
                             print("Number Found", line.strip())
-                            os.system('atcom --port ' + str(serialDevice) + ' -b 115200 ATDT"' + str(targetPhoneNumber) + ';"')
+                            os.system('atcom --port ' + str(serialDevice) + ' -b 19200 ATDT"' + str(targetPhoneNumber) + ';"')
                             time.sleep(10)
                             os.system("atcom --port " + str(serialDevice) + " -b 19200 AT+CHUP")
                     if not line:
