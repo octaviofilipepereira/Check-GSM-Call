@@ -16,7 +16,7 @@ targetPhoneNumber = "000000000"
 # Open phone device, baudrate and connection timeout
 # Some devices are a little slow getting the initial connection
 # So we declare 5s for timeout
-phone = serial.Serial(serialDevice,  115200, timeout=5)
+phone = serial.Serial(serialDevice,  19200, timeout=5)
 
 # Try catch function
 try:
