@@ -44,7 +44,6 @@ try:
             
             print("Connection Date/Time: ", now)
             # Run atcom AT commands
-            # var1 = os.system("atcom --port " + str(serialDevice) + " -b 19200 AT+CLCC")
             proc = subprocess.Popen(["atcom --port " + str(serialDevice) + " -b 19200 AT+CLCC"], stdout=subprocess.PIPE, shell=True)
             (out, err) = proc.communicate()
             
