@@ -1,6 +1,6 @@
 # Check-GSM-Call
 
-Check GSM call, calidate Caller ID and deploy some action
+Check GSM call, validate Caller ID and deploy some action
 
 This script, written in Python, allows you to interact with a GSM modem with AT commands, in order to:
 1. Detect incoming voice calls;
