@@ -11,7 +11,7 @@ now = datetime.datetime.now()
 serialDevice = "/dev/ttyACM0"
 
 # Target phone number fater validation
-targetPhoneNumber = "916247135"
+targetPhoneNumber = "555555555"
 
 # Open phone device, baudrate and connection timeout
 # Some devices are a little slow getting the initial connection
